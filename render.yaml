@@ -2,8 +2,7 @@ services:
   - type: web
     name: WEBTOR
     env: python
-    buildCommand: bash run.sh
-    startCommand:  bash run.sh
+    startCommand: bash run.sh
     repo: https://github.com/sholoomail/WEBTOR.git
     branch: main
     envVars:
